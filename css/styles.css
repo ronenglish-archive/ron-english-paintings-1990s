@@ -607,3 +607,30 @@ body.year-overview-page .year-return-nav .nav-pill:hover {
   box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
 }
 /* END GENERATED LITERATURE SOURCE IMAGE CSS */
+/* START GENERATED HORRIBLE WASTE CENTERING CSS */
+.literature-source-images.horrible-waste-source-image {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+.literature-source-images.horrible-waste-source-image > .horrible-waste-source-link {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.literature-source-images.horrible-waste-source-image > .horrible-waste-source-link img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+/* END GENERATED HORRIBLE WASTE CENTERING CSS */
