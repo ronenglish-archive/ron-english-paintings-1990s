@@ -347,6 +347,23 @@
   }
 </style>
 <!-- END GRAFFITI ORG ANCILLARY CARD SIZE FIX -->
+<style>
+/* START TARGETED MULTI-HERO CHILD NORMALIZATION */
+.work-hero-gallery > .work-panel,
+.work-hero-gallery > .hero-pair-item {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+}
+
+.work-hero-gallery > .work-panel .work-hero-link,
+.work-hero-gallery > .hero-pair-item .work-hero-link {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+}
+/* END TARGETED MULTI-HERO CHILD NORMALIZATION */
+</style>
 </head>
 
 <body>
@@ -380,7 +397,8 @@
 
   <main class="work-layout">
 
-    <figure class="work-panel" data-work-id="RE-000138-A">
+    <div class="work-hero-gallery shark-panels-gallery" aria-label="Shark Infested Waters II panels">
+<figure class="work-panel" data-work-id="RE-000138-A">
       <a class="work-hero-link" href="../../../../images/Paintings/1990s/1991/Shark-Infested-Waters-panel-2L.jpg" target="_blank" rel="noopener noreferrer">
 <img
         src="../../../../images/Paintings/1990s/1991/Shark-Infested-Waters-panel-2L.jpg"
@@ -402,7 +420,8 @@
 </a>
     </figure>
 
-    <ul class="work-meta" data-work-id="RE-000138-A; RE-000138-B">
+    
+</div><ul class="work-meta" data-work-id="RE-000138-A; RE-000138-B">
       <li><strong>Title:</strong> Shark Infested Waters II</li>
       <li><strong>Date:</strong> 1991</li>
       <li><strong>Medium:</strong> Oil on canvas</li>
