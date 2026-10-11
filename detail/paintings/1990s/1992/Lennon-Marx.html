@@ -188,6 +188,33 @@
 .panel-pair.work-hero-gallery > .work-hero-link { display: flex; justify-content: center; align-items: center; width: 100%; }
 .panel-pair.work-hero-gallery > .work-hero-link > .work-hero { display: block; width: auto; max-width: 100%; height: auto; margin: 0 auto; flex: none; }
 </style>
+<!-- LENNON-MARX-SINGLE-COLUMN-HERO-START -->
+<style id="lennon-marx-single-column-hero">
+  /* Specific to this two-panel painting; defeats shared two-column !important rule. */
+  .work-layout .panel-pair.work-hero-gallery {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 1rem !important;
+    justify-items: center !important;
+    width: 100% !important;
+    max-width: 920px !important;
+    margin: 0 auto 1.5rem !important;
+  }
+  .work-layout .panel-pair.work-hero-gallery > .work-hero-link {
+    display: block !important;
+    width: 100% !important;
+    max-width: 920px !important;
+    margin: 0 auto !important;
+  }
+  .work-layout .panel-pair.work-hero-gallery > .work-hero-link > .work-hero {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+  }
+</style>
+<!-- LENNON-MARX-SINGLE-COLUMN-HERO-END -->
 </head>
 
 <body>
