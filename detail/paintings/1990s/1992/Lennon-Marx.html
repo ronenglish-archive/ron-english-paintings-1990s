@@ -18,10 +18,19 @@
       margin-bottom: 1.5rem;
     }
 
-    .panel-pair .work-hero {
-      flex: 1 1 320px;
+    .panel-pair.work-hero-gallery .work-hero-link {
+      display: block;
       width: 100%;
-      margin: 0;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .panel-pair.work-hero-gallery .work-hero {
+      display: block;
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
     }
 
     .ancillary-gallery.documentation-grid {
@@ -207,14 +216,12 @@
 
   <main class="work-layout">
 
-    <div class="panel-pair work-hero-gallery">
-      <a class="work-hero-link" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/image-viewer.html?src=https%3A%2F%2Fraw.githubusercontent.com%2Fronenglish-archive%2FPainting-Heroes-1%2Fmain%2FRE-000149-A-Lennon-Marx.png" target="_blank" rel="noopener noreferrer">
-        <img
-          src="https://raw.githubusercontent.com/ronenglish-archive/Painting-Heroes-1/main/RE-000149-A-Lennon-Marx.png"
-          alt="Lennon Marx"
-          class="work-hero"
-          loading="lazy"
-        />
+    <div class="panel-pair work-hero-gallery" style="display:grid;grid-template-columns:minmax(0,1fr);gap:1rem;justify-items:center;max-width:920px;margin:0 auto 1.5rem;">
+      <a class="work-hero-link" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/image-viewer.html?src=https%3A%2F%2Fraw.githubusercontent.com%2Fronenglish-archive%2Fron-english-sketches-and-drawings-6%2Fmain%2FLennon%2520Marx%2520A.jpg" target="_blank" rel="noopener noreferrer">
+        <img src="https://raw.githubusercontent.com/ronenglish-archive/ron-english-sketches-and-drawings-6/main/Lennon%20Marx%20A.jpg" alt="Lennon Marx - Panel A: Lennon" class="work-hero" loading="lazy" />
+      </a>
+      <a class="work-hero-link" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/image-viewer.html?src=https%3A%2F%2Fraw.githubusercontent.com%2Fronenglish-archive%2Fron-english-sketches-and-drawings-6%2Fmain%2FLennon%2520Marx%2520B.jpg" target="_blank" rel="noopener noreferrer">
+        <img src="https://raw.githubusercontent.com/ronenglish-archive/ron-english-sketches-and-drawings-6/main/Lennon%20Marx%20B.jpg" alt="Lennon Marx - Panel B: Marx" class="work-hero" loading="lazy" />
       </a>
     </div>
 
