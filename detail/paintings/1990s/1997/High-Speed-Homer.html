@@ -250,6 +250,16 @@ section.ron-pdoc-panel .ron-pdoc-items figure.ancillary-figure.ron-pdoc-tile > f
 section.ron-pdoc-panel .ron-pdoc-items figure.ancillary-figure.ron-pdoc-tile > figcaption a { display:inline !important; min-height:0 !important; width:auto !important; padding:0 !important; margin:0 !important; border:0 !important; background:none !important; text-decoration:underline !important; color:inherit !important; }
 @media(max-width:520px){section.ron-pdoc-panel{padding:14px !important;}section.ron-pdoc-panel .ron-pdoc-items figure.ancillary-figure.ron-pdoc-tile{flex-basis:210px !important; width:210px !important;}}
 </style>
+<style id="ron-catalogue-video-thumbnails-v1">
+section[data-role="videos"].ron-catalogue-videos { box-sizing:border-box; max-width:960px; width:100%; margin:24px auto; padding:22px; background:#fff; border:1px solid #ddd; border-radius:18px; }
+.ron-catalogue-video-grid { display:flex; flex-wrap:wrap; justify-content:center; gap:18px; }
+.ron-catalogue-video-tile { box-sizing:border-box; flex:0 1 280px; width:100%; max-width:280px; margin:0; text-align:center; }
+.ron-catalogue-video-poster { display:block; position:relative; background:#111; border-radius:10px; overflow:hidden; }
+.ron-catalogue-video-poster img { display:block; width:100%; height:170px; object-fit:contain; }
+.ron-catalogue-video-play { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); padding:12px 17px; border-radius:50%; background:rgba(0,0,0,.72); color:#fff; font-size:24px; line-height:1; }
+.ron-catalogue-video-tile figcaption { margin-top:9px; font-size:14px; }
+@media(max-width:600px) { section[data-role="videos"].ron-catalogue-videos { padding:16px; } }
+</style>
 </head>
 
 <body>
@@ -301,6 +311,18 @@ section.ron-pdoc-panel .ron-pdoc-items figure.ancillary-figure.ron-pdoc-tile > f
 
 <!-- END GENERATED WORK SEQUENCE NAV -->
 
+<section class="section-block ron-catalogue-videos" data-role="videos">
+  <h2>Videos</h2>
+  <div class="ron-catalogue-video-grid">
+    <figure class="ron-catalogue-video-tile">
+      <a class="ron-catalogue-video-poster" href="https://youtu.be/8JMib9rJAPc" target="_blank" rel="noopener noreferrer" aria-label="Watch video on YouTube">
+        <img src="https://i.ytimg.com/vi/8JMib9rJAPc/hqdefault.jpg" alt="Video thumbnail for RE-000500" loading="lazy" />
+        <span class="ron-catalogue-video-play" aria-hidden="true">&#9654;</span>
+      </a>
+      <figcaption><a href="https://youtu.be/8JMib9rJAPc" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></figcaption>
+    </figure>
+  </div>
+</section>
 <!-- WORK-SEQUENCE-NAV-START -->
 <section class="section-block ron-pdoc-panel" data-role="cultural-artistic-references">
 <h2>Cultural &amp; Artistic References</h2>
